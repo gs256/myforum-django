@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+My Forum - home page
+{% endblock %}
+
+{% block content %}
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">MyForum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Favourites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Username</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- Content -->
+    <div class="row">
+        <div class="col-8">
+            <h1 class="my-3">Welcome to my forum!</h1>
+            <hr>
+            <h3>Feedback</h3>
+            <p class="lead">Here you can ask some questions or report a bug</p>
+        </div>
+        <div class="col bg-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, expedita. Quod tempora rem soluta quas, adipisci itaque voluptates expedita officia excepturi sunt, minus iusto maiores eius corporis exercitationem possimus est quam, rerum nulla facilis. Eum iste a veritatis ex, recusandae itaque amet enim, ipsa libero assumenda minus beatae dolore accusantium.
+        </div>
+    </div>
+
+</div>
+{% endblock %}
